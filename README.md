@@ -10,7 +10,7 @@ conda activate csclir
 To be able to create jsonl records from MS MARCO (`scripts/convert_collections.sh`) you need to additionally an environment with [pygaggle](https://github.com/castorini/pygaggle#installation) installed. 
 
 ## Training Data
-For brevity we use `$DATA_HOME` refer to the folder containing all mMARCO and code-switch data. We use `$MODEL_HOME` to refer to the folder containing all trained models. Alternatively to creating the datasets from scratch (steps below), you can also directly download code-switched MS MARCO training data from [URL coming soon]. 
+For brevity we use `$DATA_HOME` refer to the folder containing all mMARCO and code-switch data. We use `$MODEL_HOME` to refer to the folder containing all trained models. Alternatively to creating the datasets from scratch (steps below), you can also directly download code-switched MS MARCO training data [on huggingface](https://huggingface.co/datasets/rlitschk/csclir/tree/main) 🤗. 
 
 ### 1. Prepare mMARCO
 To create artificially code-switched training data and multilingual evaluation data we use the [mMARCO dataset (Bonifacio et al. 2021)](https://github.com/unicamp-dl/mMARCO). This step is required for all data preparation steps listed below.  
